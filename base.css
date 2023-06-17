@@ -1,0 +1,48 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(255, 255, 255);
+    padding: 2px 2px 0px;
+}
+.header {
+    background-color: rgb(201, 231, 255);
+    min-height: 25px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(255, 255, 255);
+    min-height: 150px;
+}
+table thead th{
+    background-color: black;
+    color: white;
+}
+table tfoot td{
+    background-color: lightgrey;
+}
+table tbody tr:nth-child(even) td{
+    background-color: lightskyblue;
+}
